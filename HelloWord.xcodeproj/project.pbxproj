@@ -1,0 +1,576 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D8133CAB2122D38800BC5668 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D8133CAA2122D38800BC5668 /* AppDelegate.m */; };
+		D8133CAE2122D38800BC5668 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D8133CAD2122D38800BC5668 /* ViewController.m */; };
+		D8133CB12122D38900BC5668 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D8133CAF2122D38900BC5668 /* Main.storyboard */; };
+		D8133CB32122D3B000BC5668 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D8133CB22122D3B000BC5668 /* Assets.xcassets */; };
+		D8133CB62122D3B000BC5668 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D8133CB42122D3B000BC5668 /* LaunchScreen.storyboard */; };
+		D8133CB92122D3B000BC5668 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D8133CB82122D3B000BC5668 /* main.m */; };
+		D8133CC32122D3B000BC5668 /* HelloWordTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D8133CC22122D3B000BC5668 /* HelloWordTests.m */; };
+		D8133CCE2122D3B000BC5668 /* HelloWordUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D8133CCD2122D3B000BC5668 /* HelloWordUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D8133CBF2122D3B000BC5668 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D8133C9E2122D38700BC5668 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D8133CA52122D38700BC5668;
+			remoteInfo = HelloWord;
+		};
+		D8133CCA2122D3B000BC5668 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D8133C9E2122D38700BC5668 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D8133CA52122D38700BC5668;
+			remoteInfo = HelloWord;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D8133CA62122D38800BC5668 /* HelloWord.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HelloWord.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D8133CA92122D38800BC5668 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D8133CAA2122D38800BC5668 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D8133CAC2122D38800BC5668 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		D8133CAD2122D38800BC5668 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D8133CB02122D38900BC5668 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D8133CB22122D3B000BC5668 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D8133CB52122D3B000BC5668 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D8133CB72122D3B000BC5668 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D8133CB82122D3B000BC5668 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D8133CBE2122D3B000BC5668 /* HelloWordTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HelloWordTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D8133CC22122D3B000BC5668 /* HelloWordTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HelloWordTests.m; sourceTree = "<group>"; };
+		D8133CC42122D3B000BC5668 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D8133CC92122D3B000BC5668 /* HelloWordUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HelloWordUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D8133CCD2122D3B000BC5668 /* HelloWordUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HelloWordUITests.m; sourceTree = "<group>"; };
+		D8133CCF2122D3B000BC5668 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D8133CA32122D38700BC5668 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D8133CBB2122D3B000BC5668 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D8133CC62122D3B000BC5668 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D8133C9D2122D38600BC5668 = {
+			isa = PBXGroup;
+			children = (
+				D8133CA82122D38800BC5668 /* HelloWord */,
+				D8133CC12122D3B000BC5668 /* HelloWordTests */,
+				D8133CCC2122D3B000BC5668 /* HelloWordUITests */,
+				D8133CA72122D38800BC5668 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D8133CA72122D38800BC5668 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D8133CA62122D38800BC5668 /* HelloWord.app */,
+				D8133CBE2122D3B000BC5668 /* HelloWordTests.xctest */,
+				D8133CC92122D3B000BC5668 /* HelloWordUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D8133CA82122D38800BC5668 /* HelloWord */ = {
+			isa = PBXGroup;
+			children = (
+				D8133CA92122D38800BC5668 /* AppDelegate.h */,
+				D8133CAA2122D38800BC5668 /* AppDelegate.m */,
+				D8133CAC2122D38800BC5668 /* ViewController.h */,
+				D8133CAD2122D38800BC5668 /* ViewController.m */,
+				D8133CAF2122D38900BC5668 /* Main.storyboard */,
+				D8133CB22122D3B000BC5668 /* Assets.xcassets */,
+				D8133CB42122D3B000BC5668 /* LaunchScreen.storyboard */,
+				D8133CB72122D3B000BC5668 /* Info.plist */,
+				D8133CB82122D3B000BC5668 /* main.m */,
+			);
+			path = HelloWord;
+			sourceTree = "<group>";
+		};
+		D8133CC12122D3B000BC5668 /* HelloWordTests */ = {
+			isa = PBXGroup;
+			children = (
+				D8133CC22122D3B000BC5668 /* HelloWordTests.m */,
+				D8133CC42122D3B000BC5668 /* Info.plist */,
+			);
+			path = HelloWordTests;
+			sourceTree = "<group>";
+		};
+		D8133CCC2122D3B000BC5668 /* HelloWordUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D8133CCD2122D3B000BC5668 /* HelloWordUITests.m */,
+				D8133CCF2122D3B000BC5668 /* Info.plist */,
+			);
+			path = HelloWordUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D8133CA52122D38700BC5668 /* HelloWord */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D8133CD22122D3B000BC5668 /* Build configuration list for PBXNativeTarget "HelloWord" */;
+			buildPhases = (
+				D8133CA22122D38700BC5668 /* Sources */,
+				D8133CA32122D38700BC5668 /* Frameworks */,
+				D8133CA42122D38700BC5668 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HelloWord;
+			productName = HelloWord;
+			productReference = D8133CA62122D38800BC5668 /* HelloWord.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D8133CBD2122D3B000BC5668 /* HelloWordTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D8133CD52122D3B000BC5668 /* Build configuration list for PBXNativeTarget "HelloWordTests" */;
+			buildPhases = (
+				D8133CBA2122D3B000BC5668 /* Sources */,
+				D8133CBB2122D3B000BC5668 /* Frameworks */,
+				D8133CBC2122D3B000BC5668 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D8133CC02122D3B000BC5668 /* PBXTargetDependency */,
+			);
+			name = HelloWordTests;
+			productName = HelloWordTests;
+			productReference = D8133CBE2122D3B000BC5668 /* HelloWordTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D8133CC82122D3B000BC5668 /* HelloWordUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D8133CD82122D3B000BC5668 /* Build configuration list for PBXNativeTarget "HelloWordUITests" */;
+			buildPhases = (
+				D8133CC52122D3B000BC5668 /* Sources */,
+				D8133CC62122D3B000BC5668 /* Frameworks */,
+				D8133CC72122D3B000BC5668 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D8133CCB2122D3B000BC5668 /* PBXTargetDependency */,
+			);
+			name = HelloWordUITests;
+			productName = HelloWordUITests;
+			productReference = D8133CC92122D3B000BC5668 /* HelloWordUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D8133C9E2122D38700BC5668 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "arthur kao";
+				TargetAttributes = {
+					D8133CA52122D38700BC5668 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					D8133CBD2122D3B000BC5668 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = D8133CA52122D38700BC5668;
+					};
+					D8133CC82122D3B000BC5668 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = D8133CA52122D38700BC5668;
+					};
+				};
+			};
+			buildConfigurationList = D8133CA12122D38700BC5668 /* Build configuration list for PBXProject "HelloWord" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D8133C9D2122D38600BC5668;
+			productRefGroup = D8133CA72122D38800BC5668 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D8133CA52122D38700BC5668 /* HelloWord */,
+				D8133CBD2122D3B000BC5668 /* HelloWordTests */,
+				D8133CC82122D3B000BC5668 /* HelloWordUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D8133CA42122D38700BC5668 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D8133CB62122D3B000BC5668 /* LaunchScreen.storyboard in Resources */,
+				D8133CB32122D3B000BC5668 /* Assets.xcassets in Resources */,
+				D8133CB12122D38900BC5668 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D8133CBC2122D3B000BC5668 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D8133CC72122D3B000BC5668 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D8133CA22122D38700BC5668 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D8133CAE2122D38800BC5668 /* ViewController.m in Sources */,
+				D8133CB92122D3B000BC5668 /* main.m in Sources */,
+				D8133CAB2122D38800BC5668 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D8133CBA2122D3B000BC5668 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D8133CC32122D3B000BC5668 /* HelloWordTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D8133CC52122D3B000BC5668 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D8133CCE2122D3B000BC5668 /* HelloWordUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D8133CC02122D3B000BC5668 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D8133CA52122D38700BC5668 /* HelloWord */;
+			targetProxy = D8133CBF2122D3B000BC5668 /* PBXContainerItemProxy */;
+		};
+		D8133CCB2122D3B000BC5668 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D8133CA52122D38700BC5668 /* HelloWord */;
+			targetProxy = D8133CCA2122D3B000BC5668 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D8133CAF2122D38900BC5668 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D8133CB02122D38900BC5668 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D8133CB42122D3B000BC5668 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D8133CB52122D3B000BC5668 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D8133CD02122D3B000BC5668 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D8133CD12122D3B000BC5668 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D8133CD32122D3B000BC5668 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HelloWord/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = mvi.HelloWord;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D8133CD42122D3B000BC5668 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HelloWord/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = mvi.HelloWord;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D8133CD62122D3B000BC5668 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HelloWordTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = mvi.HelloWordTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HelloWord.app/HelloWord";
+			};
+			name = Debug;
+		};
+		D8133CD72122D3B000BC5668 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HelloWordTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = mvi.HelloWordTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HelloWord.app/HelloWord";
+			};
+			name = Release;
+		};
+		D8133CD92122D3B000BC5668 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HelloWordUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = mvi.HelloWordUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HelloWord;
+			};
+			name = Debug;
+		};
+		D8133CDA2122D3B000BC5668 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HelloWordUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = mvi.HelloWordUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HelloWord;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D8133CA12122D38700BC5668 /* Build configuration list for PBXProject "HelloWord" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D8133CD02122D3B000BC5668 /* Debug */,
+				D8133CD12122D3B000BC5668 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D8133CD22122D3B000BC5668 /* Build configuration list for PBXNativeTarget "HelloWord" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D8133CD32122D3B000BC5668 /* Debug */,
+				D8133CD42122D3B000BC5668 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D8133CD52122D3B000BC5668 /* Build configuration list for PBXNativeTarget "HelloWordTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D8133CD62122D3B000BC5668 /* Debug */,
+				D8133CD72122D3B000BC5668 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D8133CD82122D3B000BC5668 /* Build configuration list for PBXNativeTarget "HelloWordUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D8133CD92122D3B000BC5668 /* Debug */,
+				D8133CDA2122D3B000BC5668 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D8133C9E2122D38700BC5668 /* Project object */;
+}
