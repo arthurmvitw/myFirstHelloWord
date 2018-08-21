@@ -11,6 +11,33 @@
     </dependencies>
     <scenes>
         <!--View Controller-->
+        <scene sceneID="CQ0-Dz-v7z">
+            <objects>
+                <viewController storyboardIdentifier="ViewC" useStoryboardIdentifierAsRestorationIdentifier="YES" id="US7-Ji-kC1" customClass="CViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="BeN-JX-klc">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="新分頁 C" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lxp-zV-dcz">
+                                <rect key="frame" x="153.5" y="333" width="68.5" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="lxp-zV-dcz" firstAttribute="centerX" secondItem="5jv-bv-j42" secondAttribute="centerX" id="IHa-uQ-LkW"/>
+                            <constraint firstItem="lxp-zV-dcz" firstAttribute="centerY" secondItem="5jv-bv-j42" secondAttribute="centerY" id="kDf-G6-sQA"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="5jv-bv-j42"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="glF-lB-D8p" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-79" y="-551"/>
+        </scene>
+        <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
@@ -23,44 +50,111 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button3"/>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aE9-uz-zY5">
-                                <rect key="frame" x="161" y="238" width="52" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aE9-uz-zY5">
+                                <rect key="frame" x="161" y="328.5" width="52" height="30"/>
                                 <state key="normal" title="Button1"/>
+                                <connections>
+                                    <action selector="buttonEvent:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Nyw-zv-ZnL"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="w3Z-d6-OAZ">
-                                <rect key="frame" x="319" y="637" width="56" height="30"/>
+                                <rect key="frame" x="294" y="205" width="45" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button4"/>
+                                <state key="normal" title="跳轉 B"/>
+                                <connections>
+                                    <action selector="buttonEvent:" destination="BYZ-38-t0r" eventType="touchUpInside" id="joh-fK-ouD"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ETX-YR-OHH">
-                                <rect key="frame" x="289" y="127" width="54" height="30"/>
+                                <rect key="frame" x="294" y="127" width="45" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="button2"/>
+                                <state key="normal" title="跳轉 A"/>
+                                <connections>
+                                    <action selector="buttonEvent:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Mzq-rb-o3L"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ooo-rD-ACX">
+                                <rect key="frame" x="294" y="289" width="46" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="跳轉 C"/>
+                                <connections>
+                                    <action selector="buttonEvent:" destination="BYZ-38-t0r" eventType="touchUpInside" id="7Cd-JT-PXD"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="aE9-uz-zY5" firstAttribute="centerY" secondItem="6Tk-OE-BBY" secondAttribute="centerY" id="7wD-is-1FF"/>
+                            <constraint firstItem="aE9-uz-zY5" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="N3z-Sl-FnP"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
+                    <connections>
+                        <outlet property="buttonHelloWorld" destination="aE9-uz-zY5" id="Ft2-nr-CP5"/>
+                        <outlet property="buttonNextA" destination="ETX-YR-OHH" id="wgy-wl-Dq2"/>
+                        <outlet property="buttonNextB" destination="w3Z-d6-OAZ" id="ikz-AX-fp6"/>
+                        <outlet property="buttonNextC" destination="ooo-rD-ACX" id="25U-eL-OSG"/>
+                        <segue destination="b4b-37-ibO" kind="show" identifier="nextA" id="uFj-VF-8hp"/>
+                        <segue destination="Mg4-Ne-ziS" kind="show" identifier="nextB" id="eOw-V7-X0K"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-79.200000000000003" y="133.5832083958021"/>
         </scene>
-        <!--View Controller-->
+        <!--View A Controller-->
         <scene sceneID="WaF-fe-tcB">
             <objects>
-                <viewController id="b4b-37-ibO" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="FYT-HB-k2i">
+                <viewController id="b4b-37-ibO" userLabel="View A Controller" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="FYT-HB-k2i" userLabel="ViewA">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="新分頁 A" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Eqc-GT-qJa">
+                                <rect key="frame" x="154" y="333" width="67.5" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="Eqc-GT-qJa" firstAttribute="centerX" secondItem="Vrn-4k-Jko" secondAttribute="centerX" id="8QN-3B-d4l"/>
+                            <constraint firstItem="Eqc-GT-qJa" firstAttribute="centerY" secondItem="Vrn-4k-Jko" secondAttribute="centerY" id="awr-p9-INf"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="Vrn-4k-Jko"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="0n2-cV-YWZ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="673" y="132"/>
+        </scene>
+        <!--View B Controller-->
+        <scene sceneID="YoD-Qe-Sb1">
+            <objects>
+                <viewController id="Mg4-Ne-ziS" userLabel="View B Controller" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="rwz-ZR-fiN" userLabel="View B">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="新分頁 B" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AYX-in-C0u">
+                                <rect key="frame" x="154" y="333" width="67.5" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="AYX-in-C0u" firstAttribute="centerX" secondItem="ilm-Oi-jnC" secondAttribute="centerX" id="oUf-ae-CSx"/>
+                            <constraint firstItem="AYX-in-C0u" firstAttribute="centerY" secondItem="ilm-Oi-jnC" secondAttribute="centerY" id="vsi-hX-cs8"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="ilm-Oi-jnC"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="zDZ-IG-8Ak" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-79" y="892"/>
         </scene>
     </scenes>
 </document>

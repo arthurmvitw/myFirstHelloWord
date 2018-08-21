@@ -16,6 +16,7 @@
 		D8133CC32122D3B000BC5668 /* HelloWordTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D8133CC22122D3B000BC5668 /* HelloWordTests.m */; };
 		D8133CCE2122D3B000BC5668 /* HelloWordUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D8133CCD2122D3B000BC5668 /* HelloWordUITests.m */; };
 		D82EF90E212AB87A00BE82E6 /* FirstHelloWord.m in Sources */ = {isa = PBXBuildFile; fileRef = D82EF90D212AB87A00BE82E6 /* FirstHelloWord.m */; };
+		D82EF911212AC7BD00BE82E6 /* CViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D82EF910212AC7BD00BE82E6 /* CViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +55,8 @@
 		D8133CCF2122D3B000BC5668 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D82EF90C212AB87A00BE82E6 /* FirstHelloWord.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstHelloWord.h; sourceTree = "<group>"; };
 		D82EF90D212AB87A00BE82E6 /* FirstHelloWord.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstHelloWord.m; sourceTree = "<group>"; };
+		D82EF90F212AC7BD00BE82E6 /* CViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CViewController.h; sourceTree = "<group>"; };
+		D82EF910212AC7BD00BE82E6 /* CViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,10 +107,9 @@
 		D8133CA82122D38800BC5668 /* HelloWord */ = {
 			isa = PBXGroup;
 			children = (
+				D82EF912212AC7C900BE82E6 /* ViewController */,
 				D8133CA92122D38800BC5668 /* AppDelegate.h */,
 				D8133CAA2122D38800BC5668 /* AppDelegate.m */,
-				D8133CAC2122D38800BC5668 /* ViewController.h */,
-				D8133CAD2122D38800BC5668 /* ViewController.m */,
 				D8133CAF2122D38900BC5668 /* Main.storyboard */,
 				D8133CB22122D3B000BC5668 /* Assets.xcassets */,
 				D8133CB42122D3B000BC5668 /* LaunchScreen.storyboard */,
@@ -135,6 +137,17 @@
 				D8133CCF2122D3B000BC5668 /* Info.plist */,
 			);
 			path = HelloWordUITests;
+			sourceTree = "<group>";
+		};
+		D82EF912212AC7C900BE82E6 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				D82EF90F212AC7BD00BE82E6 /* CViewController.h */,
+				D82EF910212AC7BD00BE82E6 /* CViewController.m */,
+				D8133CAC2122D38800BC5668 /* ViewController.h */,
+				D8133CAD2122D38800BC5668 /* ViewController.m */,
+			);
+			path = ViewController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -267,6 +280,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D82EF911212AC7BD00BE82E6 /* CViewController.m in Sources */,
 				D8133CAE2122D38800BC5668 /* ViewController.m in Sources */,
 				D8133CB92122D3B000BC5668 /* main.m in Sources */,
 				D8133CAB2122D38800BC5668 /* AppDelegate.m in Sources */,
